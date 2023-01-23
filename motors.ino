@@ -1,9 +1,5 @@
 
 #include <Wire.h>              //including libraries of I2C
-#include <IRremote.h>          //including libraries of remote control
-#define RECV_PIN  12        //pin 12 of IR remoter control receiver
-#include <Servo.h>
-IRrecv irrecv(RECV_PIN);      //defining pin 12 of IR remoter control
 //////////////////////////////////////////////////
 #define Lpwm_pin  5     //pin of controlling speed---- ENA of motor driver board
 #define Rpwm_pin  6    //pin of controlling speed---- ENB of motor driver board
