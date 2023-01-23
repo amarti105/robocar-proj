@@ -1,23 +1,5 @@
 
 #include <Wire.h>              //including libraries of I2C
-#include <IRremote.h>          //including libraries of remote control
-#define RECV_PIN  12        //pin 12 of IR remoter control receiver
-#include <Servo.h>
-IRrecv irrecv(RECV_PIN);      //defining pin 12 of IR remoter control
-Servo myservo;
-decode_results res;
-decode_results results;         //cache of decode of IR remoter control
-#define IR_Go       0x00ff629d //going forward
-#define IR_Back     0x00ffa857  //going backward
-#define IR_Left     0x00ff22dd  //turning left
-#define IR_Right    0x00ffc23d  //turning right
-#define IR_Stop     0x00ff02fd  //stop 
-#define IR_Servo_L  0x00ff6897  //motor turning left
-#define IR_Servo_R  0x00ff9867  //motor turning right
-#define IR_Speed_UP     0x00ffb04f //increasing speed
-#define IR_Speed_DOWN   0x00ff30cf //decreasing speed
-#define IR_XunJi_Mode   0x00ff18e7
-#define IR_Self_Control  0x00ff7a85  //ultrasonic distance detecting 
 #define echoPin A0 // attach pin D2 Arduino to pin Echo of HC-SR04 back
 #define trigPin A1 //attach pin D3 Arduino to pin Trig of HC-SR04 back
 #define echoPin1 A2 // attach pin D2 Arduino to pin Echo of HC-SR04 left
