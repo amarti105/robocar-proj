@@ -1,4 +1,4 @@
-# robocar-proj
+#Robocar Reaserch Project @ CSULA
 motor code and ultrasonic sensor code in arduino
 # motors
 code for the motors
