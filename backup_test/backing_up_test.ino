@@ -1,4 +1,3 @@
-
 #include <Wire.h>              //including libraries of I2C
 #define echoPin A0 // attach pin D2 Arduino to pin Echo of HC-SR04 back
 #define trigPin A1 //attach pin D3 Arduino to pin Trig of HC-SR04 back
@@ -95,11 +94,9 @@ void setup() {
   Serial.println("with Arduino UNO R3");
    M_Control_IO_config();     //motor controlling the initialization of IO
    Set_Speed(Lpwm_val,Rpwm_val);  //setting initialized speed
-   //pinMode(outputPin, OUTPUT);    //IO of ultrasonic module 
-    myservo.write(DuoJiao);
+   //pinMode(outputPin, OUTPUT);    //IO of ultrasonic module
    stopp();                       //stop
    delay(1000);
-   myservo.detach();
 }
 void SonarSensor(int trigPin,int echoPin)
 {
@@ -155,4 +152,3 @@ right_sensor = distance;
     delay(20);             
        }
 }
-
