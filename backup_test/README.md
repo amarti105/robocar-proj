@@ -5,4 +5,4 @@ Purpose: Utilize 3 ultrasonic sensors to stop the robocar from hitting an object
 
 ### Placement of Sensors on robocar
 
-![alt_text](https://github.com/amarti105/robocar-proj/blob/fae2eb8ed895ecc8b3e2bf44ba21d4437edf1ee8/pictures/placement%20of%20sensors.jpg)
+![alt_text](https://github.com/amarti105/robocar-proj/blob/59469d1271b8f6284e29df9f7e77b94f66b62a6d/pictures/placement_of_sensors.jpg)
