@@ -66,10 +66,10 @@ void turnL()         //turning left(dual wheel)
     }    
 void stopp()        //stop
     {
-     digitalWrite(pinRB,HIGH);
-     digitalWrite(pinRF,HIGH);
-     digitalWrite(pinLB,HIGH);
-     digitalWrite(pinLF,HIGH);
+     digitalWrite(pinRB,LOW);
+     digitalWrite(pinRF,LOW);
+     digitalWrite(pinLB,LOW);
+     digitalWrite(pinLF,LOW);
      Car_state = 5;
     
     }
