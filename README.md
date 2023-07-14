@@ -1,4 +1,4 @@
-# Robocar Reaserch Project
+# Robocar Research Project
 # Table of Contents
   - [About](#About)
   - [Motor code](#Motors) 
